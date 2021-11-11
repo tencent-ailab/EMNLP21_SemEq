@@ -12,7 +12,8 @@ cd run_align_definitions_main/
 python ../model/align_definitions_main.py
 ```
 
-## 3. Download the pretrained model.
+## 3. Download the pretrained model and data.
+Visit https://drive.google.com/drive/folders/1I5-iOfWr1E32ahYDCbHKCssMdm74_JXG?usp=sharing.
 Download the pretrained model (SemEq-General-Large which is based on Roberta-Large) and put it under run_robertaLarge_model_span_WSD_twoStageTune/ and also run_robertaLarge_model_span_FEWS_twoStageTune/. Please make sure that the downloaded model file name is "pretrained_model_CrossEntropy.pt".
 The script will load the general model and fine-tune on specific WSD datasets to get the expert model.
 
