@@ -73,3 +73,5 @@ If you think this repo is useful, please cite our work. Thanks!
     pages = "7741--7751",
 }
 ```
+
+Disclaimer: This repo is only for research purpose. It is not an officially supported Tencent product.
