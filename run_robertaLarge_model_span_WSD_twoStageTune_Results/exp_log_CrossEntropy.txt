@@ -1,0 +1,8 @@
+True
+classes_freq: [1315860, 226436]
+classes_weight: [1.1720821363974891, 6.811178434524545]
+Namespace(FEWS_data_path='../datasets/fews/', MASK_id=50264, MODELS_idx=3, PAD_id=1, WSD_data_path='../EWISE/data/', WSD_gold_data_path='../datasets/WSD_Evaluation_Framework/', WiC_data_path='../datasets/WiC_dataset/', adam_epsilon=1e-08, align_dict_knowledge=False, align_dict_t=0.5, batch_size=16, bert_hidden_size=1024, bert_model='roberta_large', class_num=2, cls_token='<s>', concat='rep*diff*mul', cuda=True, def_alignment_file='../run_align_definitions_main/final_keyword_pos2def_alignments.p', device=device(type='cuda', index=0), dict='OxfordAdvanced', dict_ignore_phrase=False, dictionary_file_path='../data/extracted_data_new/', dropout=0.2, emb_layer_size=300, encoder1_flag='gloss', encoder2_flag='context', epochs=7, eval_dataset='WSD', exp_mode='twoStageTune', fix_embedding_layer=False, gloss_max_length=64, gpu_id=0, learning_rate=2e-06, loss='CrossEntropy', mask_token='<mask>', mask_trigger=True, max_grad_norm=1.0, max_num_gloss=100, optimizer='AdamW', pad_token='<pad>', prepare_data=False, sample_neg_defs=False, scale_weight=True, seed=11, sentence_max_length=128, sentence_pooling_method='cls', sep_encoder=False, sep_token='</s>', toy=False, use_dict_knowledge=False, use_hidden_layer=True, weight_decay=0.01)
+len(self.train_set): 1542294
+num_batches: 96394
+epoch: 1
+=====================================

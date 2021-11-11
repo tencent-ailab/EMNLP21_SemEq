@@ -1,0 +1,40 @@
+# install java
+yum install -y python3
+yum install java
+
+# create python virtual env
+python3 -m venv env_python3
+source env_python3/bin/activate
+pip install --upgrade pip
+
+# install python packages
+pip install lxml
+pip install numpy
+pip install pandas
+pip install beautifulsoup4
+pip install nltk
+pip install tqdm
+pip install gensim
+pip install sklearn
+pip install networkx
+pip install matplotlib
+pip install spacy
+pip install ftfy
+pip install tweet-preprocessor
+pip install bpemb
+pip install bert-score
+pip install nlp
+pip install "clean-text[gpl]"
+pip install joblib
+pip install textualheatmap
+python -m spacy download en_core_web_sm
+
+# go to https://pytorch.org/ and install pytorch accordingly
+pip3 install torch torchvision torchaudio
+pip install transformers
+
+# enter python and download necessary nltk data
+import nltk
+nltk.download('words')
+nltk.download('stopwords')
+nltk.download('wordnet')
